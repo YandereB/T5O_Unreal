@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "alpha",
+	"FriendlyName": "TravellerRPG",
+	"Description": "Traveller Role Play Game Setup Plugin",
+	"Category": "Gameplay",
+	"CreatedBy": "ManOguaR",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TravellerRPG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
