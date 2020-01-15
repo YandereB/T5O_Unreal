@@ -9,7 +9,7 @@ ANI2SActor::ANI2SActor()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	NI2SActorComponent = CreateDefaultSubobject<UNI2SActorComponent>("NI2SActorComponent");
+	NI2SComponent = CreateDefaultSubobject<UNI2SActorComponent>("NI2SComponent");
 
 }
 

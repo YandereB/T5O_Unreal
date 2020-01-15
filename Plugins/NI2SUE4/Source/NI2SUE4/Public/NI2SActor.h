@@ -21,7 +21,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, Category = "NI2S")
-	UNI2SActorComponent* NI2SActorComponent;
+	UNI2SActorComponent* NI2SComponent;
 
 public:
 	// Called every frame
