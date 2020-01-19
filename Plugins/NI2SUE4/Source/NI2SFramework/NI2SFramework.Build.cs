@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class TravellerRPG : ModuleRules
+public class NI2SFramework : ModuleRules
 {
-	public TravellerRPG(ReadOnlyTargetRules Target) : base(Target)
+	public NI2SFramework(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -25,11 +25,10 @@ public class TravellerRPG : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-                "Core",
-                "NI2SFramework",
+				"Core",
 				// ... add other public dependencies that you statically link with here ...
 			}
-            );
+			);
 			
 		
 		PrivateDependencyModuleNames.AddRange(

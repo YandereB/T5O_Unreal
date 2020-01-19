@@ -14,11 +14,16 @@
 	"IsBetaVersion": true,
 	"IsExperimentalVersion": false,
 	"Installed": false,
-	"Modules": [
-		{
-			"Name": "NI2SUE4",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+  "Modules": [
+    {
+      "Name": "NI2SFramework",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "NI2SEditor",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
 }
