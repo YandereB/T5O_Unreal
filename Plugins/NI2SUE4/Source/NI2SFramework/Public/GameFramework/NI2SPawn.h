@@ -7,6 +7,9 @@
 #include "NI2SActorComponent.h"
 #include "NI2SPawn.generated.h"
 
+/**
+ * Base class for all Narrative-Dependent APawns
+ */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SPawn : public APawn
 {

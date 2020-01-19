@@ -7,7 +7,7 @@
 #include "NI2SWorldSettings.generated.h"
 
 /**
- * 
+ * Base class for all Narrative-Dependent AWorldSettings
  */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SWorldSettings : public AWorldSettings

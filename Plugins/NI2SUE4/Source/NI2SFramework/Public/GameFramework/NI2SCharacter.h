@@ -7,6 +7,9 @@
 #include "NI2SActorComponent.h"
 #include "NI2SCharacter.generated.h"
 
+/**
+ * Base class for all Narrative-Dependent ACharacters
+ */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SCharacter : public ACharacter
 {

@@ -7,7 +7,7 @@
 #include "NI2SGameModeBase.generated.h"
 
 /**
- * 
+ * Base class for all Narrative-Dependent AGameModeBase
  */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SGameModeBase : public AGameModeBase

@@ -7,7 +7,7 @@
 #include "NI2SPlayerState.generated.h"
 
 /**
- * 
+ * Base class for all Narrative-Dependent APlayerStates
  */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SPlayerState : public APlayerState

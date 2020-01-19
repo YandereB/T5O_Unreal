@@ -7,6 +7,9 @@
 #include "NI2SActorComponent.h"
 #include "NI2SActor.generated.h"
 
+/**
+ * Base class for all Narrative-Dependent AActors
+ */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SActor : public AActor
 {

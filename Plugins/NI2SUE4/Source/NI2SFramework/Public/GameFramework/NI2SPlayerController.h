@@ -7,7 +7,7 @@
 #include "NI2SPlayerController.generated.h"
 
 /**
- * 
+ * Base class for all Narrative-Dependent APlayerControllers
  */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SPlayerController : public APlayerController

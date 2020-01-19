@@ -7,7 +7,7 @@
 #include "NI2SHUD.generated.h"
 
 /**
- * 
+ * Base class for all Narrative-Dependent AHUDs
  */
 UCLASS()
 class NI2SFRAMEWORK_API ANI2SHUD : public AHUD
