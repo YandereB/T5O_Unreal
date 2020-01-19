@@ -22,7 +22,12 @@
     },
     {
       "Name": "NI2SEditor",
-      "Type": "UncookedOnly",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    },
+    {
+      "Name": "NI2STest",
+      "Type": "DeveloperTool",
       "LoadingPhase": "PreDefault"
     }
   ]

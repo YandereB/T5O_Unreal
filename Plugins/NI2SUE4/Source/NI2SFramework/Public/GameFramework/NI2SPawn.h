@@ -26,7 +26,7 @@ protected:
 	//void Turn(float Amount);
 	//void LookUp(float Amount);
 
-	UPROPERTY(EditAnywhere, Category = "NI2S")
+	UPROPERTY(EditAnywhere, Category = "Narrative Simulation")
 	UNI2SActorComponent* NI2SComponent;
 
 	//class UFloatingPawnMovement* FloatingPawnMovement;
