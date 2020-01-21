@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent AHUDs
  */
-UCLASS()
+UCLASS(abstract)
 class NI2SFRAMEWORK_API ANI2SHUD : public AHUD
 {
 	GENERATED_BODY()

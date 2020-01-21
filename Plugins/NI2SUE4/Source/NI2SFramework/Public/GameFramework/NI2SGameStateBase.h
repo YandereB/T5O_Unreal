@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent AGameStateBase
  */
-UCLASS()
+UCLASS(abstract)
 class NI2SFRAMEWORK_API ANI2SGameStateBase : public AGameStateBase
 {
 	GENERATED_BODY()

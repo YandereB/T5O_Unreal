@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(abstract)
 class NI2SFRAMEWORK_API ANI2SPlayerCameraManager : public APlayerCameraManager
 {
 	GENERATED_BODY()

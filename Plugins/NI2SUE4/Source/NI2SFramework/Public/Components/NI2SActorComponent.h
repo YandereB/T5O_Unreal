@@ -7,7 +7,7 @@
 #include "NI2SActorComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(abstract, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class NI2SFRAMEWORK_API UNI2SActorComponent : public UActorComponent
 {
 	GENERATED_BODY()

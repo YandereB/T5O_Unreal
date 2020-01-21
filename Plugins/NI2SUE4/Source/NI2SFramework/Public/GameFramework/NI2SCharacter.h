@@ -10,7 +10,7 @@
 /**
  * Base class for all Narrative-Dependent ACharacters
  */
-UCLASS()
+UCLASS(abstract)
 class NI2SFRAMEWORK_API ANI2SCharacter : public ACharacter
 {
 	GENERATED_BODY()
