@@ -1,19 +1,19 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "NI2SUE4",
-	"Description": "Narrative Interactive Intelligent Simulation for Unreal Engine 4",
-	"Category": "Narrative Engine",
-	"CreatedBy": "ManOguaR",
-	"CreatedByURL": "",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"CanContainContent": false,
-	"IsBetaVersion": true,
-	"IsExperimentalVersion": false,
-	"Installed": false,
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "NI2SUE4",
+  "Description": "Narrative Interactive Intelligent Simulation for Unreal Engine 4",
+  "Category": "Narrative Engine",
+  "CreatedBy": "ManOguaR",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "IsExperimentalVersion": false,
+  "Installed": false,
   "Modules": [
     {
       "Name": "NI2SFramework",
@@ -26,9 +26,24 @@
       "LoadingPhase": "PostEngineInit"
     },
     {
+      "Name": "NI2SDatabase",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
       "Name": "NI2STest",
       "Type": "DeveloperTool",
       "LoadingPhase": "PreDefault"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "DatabaseSupport",
+      "Enabled": true
+    },
+    {
+      "Name": "RemoteDatabaseSupport",
+      "Enabled": true
     }
   ]
 }
