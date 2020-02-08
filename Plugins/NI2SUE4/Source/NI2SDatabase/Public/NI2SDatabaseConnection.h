@@ -6,9 +6,6 @@
 #include "Database.h"
 #include "RemoteDatabaseConnection.h"
 
-//forward declarations
-class FSocket;
-
 /**
 * This class allows for connections to a remote database proxy that allows any platform, regardless of native DB support, to talk to a DB.
 */
@@ -23,7 +20,7 @@ public:
 	/**
 	 * Destructor.
 	 */
-	virtual ~FNI2SDatabaseConnection();
+	~FNI2SDatabaseConnection() override;
 
 	/**
 	 * Opens a connection to the database.
@@ -34,12 +31,12 @@ public:
 	 *
 	 * @return	true if connection was successfully established, false otherwise
 	 */
-	virtual bool Open(const TCHAR* ConnectionString, const TCHAR* RemoteConnectionIP, const TCHAR* RemoteConnectionStringOverride);
+	bool Open(const TCHAR* ConnectionString, const TCHAR* RemoteConnectionIP, const TCHAR* RemoteConnectionStringOverride) override;
 
 	/**
 	* Closes connection to database.
 	*/
-	virtual void Close();
+	void Close() override;
 
 	/**
 	* Executes the passed in command on the database.
@@ -48,7 +45,7 @@ public:
 	*
 	* @return true if execution was successful, false otherwise
 	*/
-	virtual bool Execute(const TCHAR* CommandString);
+	bool Execute(const TCHAR* CommandString) override;
 
 	/**
 	 * Executes the passed in command on the database. The caller is responsible for deleting
@@ -59,12 +56,5 @@ public:
 	 *
 	 * @return true if execution was successful, false otherwise
 	 */
-	virtual bool Execute(const TCHAR* CommandString, FDataBaseRecordSet*& RecordSet);
-
-	/**
-	 * Sets the connection string to be used for this connection in the DB proxy.
-	 *
-	 * @param	ConnectionString	The new connection string to use.
-	 */
-	bool SetConnectionString(const TCHAR* ConnectionString);
+	bool Execute(const TCHAR* CommandString, FDataBaseRecordSet*& RecordSet) override;
 };
