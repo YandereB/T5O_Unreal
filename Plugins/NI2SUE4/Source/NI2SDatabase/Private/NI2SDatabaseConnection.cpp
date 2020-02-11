@@ -11,6 +11,7 @@ FNI2SDatabaseConnection::~FNI2SDatabaseConnection()
 
 bool FNI2SDatabaseConnection::Open(const TCHAR * ConnectionString, const TCHAR * RemoteConnectionIP, const TCHAR * RemoteConnectionStringOverride)
 {
+
 	return FRemoteDatabaseConnection::Open(ConnectionString, RemoteConnectionIP, RemoteConnectionStringOverride);
 }
 

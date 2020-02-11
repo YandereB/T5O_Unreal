@@ -18,7 +18,14 @@ public class NI2SDatabase : ModuleRules
 
         PrivateDependencyModuleNames.AddRange(new string[]
         {
+            "CoreUObject",
+            "Settings",
             "Sockets"
-        });
+
+    //            "Engine",
+    //            "Slate",
+    //            "SlateCore",
+				//// ... add private dependencies that you statically link with here ...	
+       });
     }
 }
