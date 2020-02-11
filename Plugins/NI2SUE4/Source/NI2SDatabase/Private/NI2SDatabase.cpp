@@ -1,7 +1,7 @@
 #include "NI2SDatabase.h"
 #include "NI2SDatabaseConnection.h"
 
-DEFINE_LOG_CATEGORY_STATIC(LogNI2SDatabase, Log, All);
+DEFINE_LOG_CATEGORY(LogNI2SDatabase);
 
 class FNI2SDatabase : public INI2SDatabase
 {

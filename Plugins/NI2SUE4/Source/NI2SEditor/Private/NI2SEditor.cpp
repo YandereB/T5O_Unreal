@@ -10,6 +10,8 @@
 
 #define LOCTEXT_NAMESPACE "NI2SPlugin"
 
+DEFINE_LOG_CATEGORY(LogNI2SEditor);
+
 void FNI2SEditorModule::StartupModule()
 {
 	// register settings detail panel customization
