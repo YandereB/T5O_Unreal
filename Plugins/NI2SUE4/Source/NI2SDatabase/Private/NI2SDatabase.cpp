@@ -7,7 +7,7 @@
 #include "ISettingsContainer.h"
 
 #define LOCTEXT_NAMESPACE "NI2SDatabase"
-DEFINE_LOG_CATEGORY_STATIC(LogNI2SDatabase, Log, All);
+DEFINE_LOG_CATEGORY(LogNI2SDatabase);
 
 class FNI2SDatabase : public INI2SDatabase
 {
@@ -90,7 +90,7 @@ private:
 
 		if (ISettingsModule* SettingsModule = FModuleManager::GetModulePtr<ISettingsModule>("Settings"))
 		{
-			SettingsModule->UnregisterSettings("Project", "CustomSettings", "General");
+			SettingsModule->UnregisterSettings("Project", "NI2S", "Database");
 		}
 	}
 };
