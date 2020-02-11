@@ -4,6 +4,9 @@
 
 #include "Modules/ModuleManager.h"
 
+//General database log
+DECLARE_LOG_CATEGORY_EXTERN(LogNI2SDatabase, Log, All);
+
 class FNI2SDatabaseConnection;
 
 /**

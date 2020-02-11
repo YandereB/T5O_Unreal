@@ -4,6 +4,9 @@
 
 #include "Modules/ModuleManager.h"
 
+//General editor log
+DECLARE_LOG_CATEGORY_EXTERN(LogNI2SEditor, Log, All);
+
 /**
 * The public interface to this module
 */

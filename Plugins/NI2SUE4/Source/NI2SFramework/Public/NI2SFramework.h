@@ -5,6 +5,9 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
+//General framework log
+DECLARE_LOG_CATEGORY_EXTERN(LogNI2SFramework, Log, All);
+
 class FNI2SFrameworkModule : public IModuleInterface
 {
 public:
