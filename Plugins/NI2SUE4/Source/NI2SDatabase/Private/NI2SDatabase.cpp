@@ -95,6 +95,8 @@ private:
 	}
 };
 
+#undef LOCTEXT_NAMESPACE
+
 IMPLEMENT_MODULE(FNI2SDatabase, NI2SDatabase);
 
 FNI2SDatabaseConnection* FNI2SDatabase::CreateInstance() const

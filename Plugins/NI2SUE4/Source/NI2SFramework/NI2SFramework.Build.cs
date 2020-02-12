@@ -36,8 +36,10 @@ public class NI2SFramework : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
+				"Settings",
 				"Slate",
 				"SlateCore",
+				"Sockets"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
