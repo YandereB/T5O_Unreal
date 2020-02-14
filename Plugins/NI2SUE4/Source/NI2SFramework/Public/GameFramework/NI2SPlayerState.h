@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent APlayerStates
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API ANI2SPlayerState : public APlayerState
 {
 	GENERATED_BODY()

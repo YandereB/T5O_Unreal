@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent APlayerControllers
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API ANI2SPlayerController : public APlayerController
 {
 	GENERATED_BODY()

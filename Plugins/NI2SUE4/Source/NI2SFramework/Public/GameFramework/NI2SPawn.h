@@ -10,7 +10,7 @@
 /**
  * Base class for all Narrative-Dependent APawns
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API ANI2SPawn : public APawn
 {
 	GENERATED_BODY()

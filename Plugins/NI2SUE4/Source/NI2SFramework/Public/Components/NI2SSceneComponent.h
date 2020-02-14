@@ -7,7 +7,7 @@
 #include "NI2SSceneComponent.generated.h"
 
 
-UCLASS(abstract, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(abstract, ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class NI2SFRAMEWORK_API UNI2SSceneComponent : public USceneComponent
 {
 	GENERATED_BODY()

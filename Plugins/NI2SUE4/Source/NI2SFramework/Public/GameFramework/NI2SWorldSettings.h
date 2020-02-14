@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent AWorldSettings
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API ANI2SWorldSettings : public AWorldSettings
 {
 	GENERATED_BODY()

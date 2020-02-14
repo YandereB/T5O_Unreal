@@ -10,7 +10,7 @@
 /**
  * 
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API UNI2SCharacterComponent : public UNI2SActorComponent
 {
 	GENERATED_BODY()

@@ -10,7 +10,7 @@
 /**
  * Base class for all Narrative-Dependent AActors
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API ANI2SActor : public AActor
 {
 	GENERATED_BODY()

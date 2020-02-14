@@ -9,7 +9,7 @@
 /**
  * Base object for all Narrative-Dependent UObjects 
  */
-UCLASS(abstract)
+UCLASS(Abstract)
 class NI2SFRAMEWORK_API UNI2SObjectBase : public UObject
 {
 	GENERATED_BODY()
