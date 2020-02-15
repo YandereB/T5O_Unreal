@@ -23,7 +23,7 @@
     {
       "Name": "NI2SEditor",
       "Type": "Editor",
-      "LoadingPhase": "PostEngineInit"
+      "LoadingPhase": "Default"
     },
     {
       "Name": "NI2SDatabase",

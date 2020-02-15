@@ -15,24 +15,26 @@ public class NI2SEditor : ModuleRules
         PrivateDependencyModuleNames.AddRange(
             new string[]
             {
-                    "Core",
-                    "CoreUObject",
-                    "Engine",
-                    "RenderCore",
-                    "RHI",
-                    "Slate",
-                    "SlateCore",
-                    "EditorStyle",
-                    "EditorWidgets",
-                    "DesktopWidgets",
-                    "PropertyEditor",
-                    "SharedSettingsWidgets",
-                    "SourceControl",
-                    "UnrealEd",
-                    "Http",
-                    "Json",
-                    "JsonUtilities",
-                    "InputCore"
+                "Core",
+                "CoreUObject",
+                "Engine",
+                "RenderCore",
+                "RHI",
+                "Slate",
+                "SlateCore",
+                "EditorStyle",
+                "EditorWidgets",
+                "DesktopWidgets",
+                "PropertyEditor",
+                "SharedSettingsWidgets",
+                "SourceControl",
+                "UnrealEd",
+                "Http",
+                "Json",
+                "JsonUtilities",
+                "LevelEditor",
+                "Projects",
+                "InputCore"
             }
             );
 
