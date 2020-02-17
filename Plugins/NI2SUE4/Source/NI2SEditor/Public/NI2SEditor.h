@@ -15,13 +15,6 @@ class FMenuBuilder;
 */
 class FNI2SEditorModule : public IModuleInterface
 {
-	/*public:
-
-		static inline FNI2SEditor& Get()
-		{
-			return FModuleManager::LoadModuleChecked< FNI2SEditor >("NI2SEditor");
-		}*/
-
 public:
 	/** IModuleInterface implementation */
 	void StartupModule();
