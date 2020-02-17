@@ -29,11 +29,6 @@
       "Name": "NI2SDatabase",
       "Type": "Runtime",
       "LoadingPhase": "Default"
-    },
-    {
-      "Name": "NI2STest",
-      "Type": "DeveloperTool",
-      "LoadingPhase": "PreDefault"
     }
   ],
   "Plugins": [
