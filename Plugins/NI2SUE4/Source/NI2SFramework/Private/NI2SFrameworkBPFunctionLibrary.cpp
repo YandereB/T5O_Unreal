@@ -14,3 +14,7 @@ float UNI2SFrameworkBPFunctionLibrary::BlueprinfFunctionLibrarySampleFunction(fl
 	return -1;
 }
 
+bool UNI2SFrameworkBPFunctionLibrary::InitializeNarrativeEngine(FNI2SInitParams InitParams)
+{
+	return false;
+}
