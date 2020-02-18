@@ -9,7 +9,7 @@
 /**
  * Base class for all Narrative-Dependent AGameModeBase
  */
-UCLASS(Abstract)
+UCLASS(Abstract, CustomConstructor)
 class NI2SFRAMEWORK_API ANI2SGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
